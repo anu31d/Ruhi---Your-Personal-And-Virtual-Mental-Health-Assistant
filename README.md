@@ -1,7 +1,5 @@
 # Ruhi---Your-Personal-And-Virtual-Mental-Health-Assistant
 
-# RUHI – Personal & Virtual Mental Health Chatbot Assistant
-
 An AI-powered mental health assistant that provides empathetic, accessible, and non-judgmental emotional support anytime, anywhere.
 
 ---
