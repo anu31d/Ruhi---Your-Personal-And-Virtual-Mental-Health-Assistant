@@ -6,8 +6,7 @@ An AI-powered mental health assistant that provides empathetic, accessible, and 
 
 ## 1. Live Demo / Video / Screenshots
 
-**Live Demo:** https://<your-live-link>  
-**Demo Video:** (Optional – add Loom / Drive / YouTube link)
+**Demo Video:** :
 
 Screenshots showcasing RUHI’s interface and interactions are available in the `screenshots/` folder of this repository.
 
