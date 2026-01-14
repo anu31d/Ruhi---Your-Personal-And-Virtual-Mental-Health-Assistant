@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "ruhi-hero",
+      "description": "Abstract, calming shapes with a soft color palette.",
+      "imageUrl": "https://images.unsplash.com/photo-1673219498641-e54db77132a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYWxtJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzY4MzY0Nzk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calm abstract"
+    },
+    {
+      "id": "ruhi-breathing",
+      "description": "A person meditating in a serene natural environment.",
+      "imageUrl": "https://picsum.photos/seed/ruhi-breathing/600/400",
+      "imageHint": "breathing nature"
+    },
+    {
+      "id": "ruhi-mindfulness",
+      "description": "A close-up of a person's hands holding a small plant, symbolizing growth and mindfulness.",
+      "imageUrl": "https://picsum.photos/seed/ruhi-mindfulness/600/400",
+      "imageHint": "mindfulness meditation"
+    }
+  ]
+}
