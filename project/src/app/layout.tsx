@@ -6,6 +6,7 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 import { MotionProvider } from '@/context/motion-provider';
 import { Quicksand } from 'next/font/google';
+import { ProtectionProvider } from '../../protection/provider';
 
 const quicksand = Quicksand({
   subsets: ['latin'],
@@ -28,14 +29,16 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head />
       <body className={cn('font-body antialiased', quicksand.variable, 'min-h-screen bg-background')}>
-        <AuthProvider>
-          <ChatbotProvider>
-            <MotionProvider>
-              {children}
-            </MotionProvider>
-            <Toaster />
-          </ChatbotProvider>
-        </AuthProvider>
+        <ProtectionProvider>
+          <AuthProvider>
+            <ChatbotProvider>
+              <MotionProvider>
+                {children}
+              </MotionProvider>
+              <Toaster />
+            </ChatbotProvider>
+          </AuthProvider>
+        </ProtectionProvider>
       </body>
     </html>
   );

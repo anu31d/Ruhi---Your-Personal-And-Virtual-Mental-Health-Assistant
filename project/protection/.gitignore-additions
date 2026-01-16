@@ -1,0 +1,17 @@
+# Protection System - Git Ignore Additions
+# Add these lines to your main .gitignore file
+
+# Protection environment files
+.env.protection
+protection/.env.local
+protection/build-constants.ts
+
+# Protection logs
+protection/*.log
+
+# Build artifacts with protection
+.next/
+out/
+
+# Local protection config overrides
+protection/config.local.ts

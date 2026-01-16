@@ -43,3 +43,8 @@ next-env.d.ts
 # firebase
 firebase-debug.log
 firestore-debug.log
+# Protection System
+.env.protection
+protection/.env.local
+protection/build-constants.ts
+protection/*.log

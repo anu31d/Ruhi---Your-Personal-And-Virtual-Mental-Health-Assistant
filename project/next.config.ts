@@ -32,6 +32,17 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  webpack: (config, { isServer }) => {
+    // Add protection obfuscation for client bundles
+    if (!isServer && process.env.NODE_ENV === 'production') {
+      config.optimization = {
+        ...config.optimization,
+        minimize: true,
+        concatenateModules: true,
+      };
+    }
+    return config;
+  },
 };
 
 export default nextConfig;
